@@ -2,6 +2,8 @@ import React from 'react'
 
 export const Footer = () => {
     return (
-        <div>Footer</div>
+        <footer className='bg-gray-800 p-4 text-center text-white'>
+            <p>&copy; {new Date().getFullYear()} ReCinemas. All rights reserved.</p>
+        </footer>
     )
 }

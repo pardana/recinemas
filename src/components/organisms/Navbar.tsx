@@ -1,9 +1,11 @@
-import Link from 'next/link'
 import React from 'react'
+import Link from 'next/link'
+import Logo from '../atoms/Logo'
 
 const Navbar = () => {
     return (
-        <nav className='bg-blue-600 p-4 text-white'>
+        <nav className='bg-blue-600 py-4 px-8  text-white flex justify-between'>
+            <Logo />
             <ul className='flex space-x-4'>
                 <li>
                     <Link href={'/'} className='hover:text-gray-200'>
